@@ -18,6 +18,14 @@ const config: NuxtConfig = {
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [],
 
+  typescript: {
+    typeCheck: {
+      eslint: {
+        files: './**/*.{ts,vue}',
+      },
+    },
+  },
+
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
     '~/plugins/compositionAPI.ts',
