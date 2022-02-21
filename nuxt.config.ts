@@ -1,6 +1,7 @@
+import { NuxtConfig } from '@nuxt/types';
 import colors from 'vuetify/es5/util/colors'
 
-export default {
+const config: NuxtConfig = {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: '%s - nuxt_composition',
@@ -94,3 +95,5 @@ export default {
     },
   },
 }
+
+export default config;
