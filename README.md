@@ -78,3 +78,9 @@ npx create-nuxt-app
 
 babelを導入したらビルド時にcore-jsのmodule読み込みエラーがたくさん出た。  
 babelでは標準で使うcore-jsがv2なので、明示的にv3を使うようにnuxt.configに設定を追加
+
+## Composition Api導入の参考ページ
+
+```https://qiita.com/kurukuruz/items/3f568cc21d467778ecb8```
+
+※ nuxt-property-decoratorを入れているが、クラス構文は使っていない
