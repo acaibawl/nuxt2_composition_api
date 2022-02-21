@@ -66,3 +66,15 @@ More information about the usage of this directory in [the documentation](https:
 This directory contains your Vuex store files. Creating a file in this directory automatically activates Vuex.
 
 More information about the usage of this directory in [the documentation](https://nuxtjs.org/docs/2.x/directory-structure/store).
+
+
+## create by
+
+```
+npx create-nuxt-app
+```
+
+## babel導入時のエラー対処
+
+babelを導入したらビルド時にcore-jsのmodule読み込みエラーがたくさん出た。  
+babelでは標準で使うcore-jsがv2なので、明示的にv3を使うようにnuxt.configに設定を追加
