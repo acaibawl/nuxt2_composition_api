@@ -84,3 +84,7 @@ babelでは標準で使うcore-jsがv2なので、明示的にv3を使うよう�
 ```https://qiita.com/kurukuruz/items/3f568cc21d467778ecb8```
 
 ※ nuxt-property-decoratorを入れているが、クラス構文は使っていない
+
+## Composition ApiでのVuexの導入参考ページ
+
+```https://zenn.dev/shundroid/articles/9cf612fa7bdc4e```
