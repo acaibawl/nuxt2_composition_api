@@ -9,7 +9,7 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, reactive } from "@vue/composition-api";
+import { defineComponent, reactive, onMounted, onUpdated, onUnmounted } from "@vue/composition-api";
 import child from "~/components/child.vue";
 
 export default defineComponent({
@@ -23,6 +23,19 @@ export default defineComponent({
     const changeMessage = (message: string) => {
       state.message = message;
     };
+
+    // ライフサイクルフック
+    onMounted(() => {
+      console.log('mounted!');
+    });
+
+    onUpdated(() => {
+      console.log('updated!');
+    });
+
+    onUnmounted(() => {
+      console.log('unmounted!');
+    });
 
     return {
       state,
