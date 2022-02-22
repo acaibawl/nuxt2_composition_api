@@ -97,3 +97,7 @@ https://zenn.dev/dialbird/articles/fcf9f68398979d
 の後にVSCodeのコマンドパレットで  
 
 ```Vetur: Restart VLS```
+
+## Nuxt2でのComposition Api + Option Apiの参考にしたスライド
+
+https://slides.com/ushironoko/nuxt-function-api/
