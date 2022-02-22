@@ -1,0 +1,37 @@
+{
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+
+  // 現在の行を強調表示する
+  "editor.renderLineHighlight": "all",
+  // 空白文字を表示する。
+  "editor.renderWhitespace": "all",
+  // スペース2個インデント
+  "editor.tabSize": 2,
+  // ファイル保存時に最新の行を末尾に挿入する
+  "files.insertFinalNewline": true,
+  // アイコンテーマの指定
+  "workbench.iconTheme": "vscode-icons",
+  "editor.acceptSuggestionOnEnter": "off",
+  "intelephense.diagnostics.undefinedTypes": false,
+  "namespaceResolver.sortAlphabetically": true,
+  "namespaceResolver.sortOnSave": true,
+  // VSCodeデフォルトのサジェストを無効化（説明が衝突するため）
+  "php.suggest.basic": false,
+  "intelephense.diagnostics.undefinedMethods": false,
+  "auto-rename-tag.activationOnLanguage": [
+      "html",
+      "xml",
+      "php",
+      "javascript",
+      "vue"
+  ],
+  "editor.autoClosingBrackets": "always",
+  "vetur.validation.templateProps": true,
+  "vetur.experimental.templateInterpolationService": true,
+  "vetur.useWorkspaceDependencies": true,
+  "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      "vue"
+    ]
+}
