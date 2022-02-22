@@ -88,3 +88,12 @@ babelでは標準で使うcore-jsがv2なので、明示的にv3を使うよう�
 ## Composition ApiでのVuexの導入参考ページ
 
 ```https://zenn.dev/shundroid/articles/9cf612fa7bdc4e```
+
+## Veturで自作Vueコンポーネントのpropsを補完
+
+https://zenn.dev/dialbird/articles/fcf9f68398979d
+
+```npm run build:intel```  
+の後にVSCodeのコマンドパレットで  
+
+```Vetur: Restart VLS```

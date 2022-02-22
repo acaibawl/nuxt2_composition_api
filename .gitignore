@@ -88,3 +88,5 @@ sw.*
 
 # Vim swap files
 *.swp
+.vscode/vetur/tags.json
+.vscode/vetur/attributes.json
