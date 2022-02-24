@@ -42,6 +42,7 @@ const config: NuxtConfig = {
     '@nuxtjs/stylelint-module',
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
+    'nuxt-typed-vuex',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -101,6 +102,9 @@ const config: NuxtConfig = {
         ];
       },
     },
+    transpile: [
+      /typed-vuex/,
+    ],
   },
 }
 

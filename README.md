@@ -101,3 +101,7 @@ https://zenn.dev/dialbird/articles/fcf9f68398979d
 ## Nuxt2でのComposition Api + Option Apiの参考にしたスライド
 
 https://slides.com/ushironoko/nuxt-function-api/
+
+## nuxt-typed-vuexでTypeScriptに対応したvuexの導入参考
+
+https://tech.smartshopping.co.jp/nuxt-typed-vuex
