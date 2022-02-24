@@ -12,9 +12,23 @@ import Vue from 'vue'
 import { Post } from '../../models/post';
 
 export default Vue.extend({
-  async asyncData({ $axios, params }) {
-    const post: Post = await $axios.$get(`https://jsonplaceholder.typicode.com/posts/${params.id}`);
-    return { post }
+  async asyncData({ $axios, params, error }) {
+    const response = await $axios.get(`https://jsonplaceholder.typicode.com/posts/${params.id}`)
+      .catch(err => {
+        // axiosの結果がエラーの場合の処理。変数responseにエラー内容を詰める
+        return err.response;
+      });
+
+    if (response.status !== 200) {
+      // エラーの場合はここでerrorメソッドを呼んでリターンする
+      error({
+        statusCode: response.status,
+        message: response.message || '',
+      });
+      return;
+    }
+    
+    return { post: response.data as Post}
   },
   data() {
     return {

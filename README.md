@@ -105,3 +105,8 @@ https://slides.com/ushironoko/nuxt-function-api/
 ## nuxt-typed-vuexでTypeScriptに対応したvuexの導入参考
 
 https://tech.smartshopping.co.jp/nuxt-typed-vuex
+
+
+## asyncDataでのエラーハンドリングの参考
+
+https://mya-ake.com/slides/nuxt-axios-error-handling
