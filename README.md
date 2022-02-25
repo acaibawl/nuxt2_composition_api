@@ -114,3 +114,7 @@ https://mya-ake.com/slides/nuxt-axios-error-handling
 ## notionのページ情報をjsonで取得する方法の参考
 
 https://qiita.com/usaginoniku/items/b575471ccd2278e6c032
+
+## vue-notionパッケージの$notionをcontextのpropertyとして認識させる為に、自分でtypeファイルを編集する方法の参考
+
+https://qiita.com/Ancient_Scapes/items/1c0b672a2f51bec20dab

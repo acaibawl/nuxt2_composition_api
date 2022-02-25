@@ -8,6 +8,16 @@ declare module 'vue/types/vue' {
 
 declare module '@nuxt/types' {
   interface NuxtAppOptions {
-    $accessor: typeof accessorType
+    $accessor: typeof accessorType,
+  }
+  interface Context {
+    $notion: {
+      getPageBlocks: (
+        notionPageId: string
+      ) => Object,
+      getPageTable: (
+        notionPageId: string
+      ) => Object,
+    },
   }
 }
