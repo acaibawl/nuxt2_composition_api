@@ -43,6 +43,7 @@ const config: NuxtConfig = {
     // https://go.nuxtjs.dev/vuetify
     '@nuxtjs/vuetify',
     'nuxt-typed-vuex',
+    'vue-notion/nuxt',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

@@ -56,7 +56,8 @@
     "stylelint-config-standard": "^24.0.0",
     "ts-jest": "^27.1.1",
     "vue-intellisense": "^1.0.1",
-    "vue-jest": "^3.0.4"
+    "vue-jest": "^3.0.4",
+    "vue-notion": "^1.4.1"
   },
   "vetur": {
     "tags": ".vscode/vetur/tags.json",

@@ -110,3 +110,7 @@ https://tech.smartshopping.co.jp/nuxt-typed-vuex
 ## asyncDataでのエラーハンドリングの参考
 
 https://mya-ake.com/slides/nuxt-axios-error-handling
+
+## notionのページ情報をjsonで取得する方法の参考
+
+https://qiita.com/usaginoniku/items/b575471ccd2278e6c032
