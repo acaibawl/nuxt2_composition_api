@@ -25,7 +25,6 @@ export default Vue.extend({
   },
   async asyncData({ $axios }) {
     const posts: Post[] = await $axios.$get("https://jsonplaceholder.typicode.com/posts/");
-    console.log(posts);
     return {
       posts,
     };

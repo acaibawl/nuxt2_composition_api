@@ -20,7 +20,6 @@ export default Vue.extend({
       }
     );
 
-    console.log(response.data);
     // とりあえずNotionとの疎通確認なのでtypeは定義していない。なのでVeturではエラーがでる
     return { items: response.data };
   },

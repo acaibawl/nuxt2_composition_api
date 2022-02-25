@@ -39,14 +39,10 @@ export default Vue.extend({
   mounted() {
     // クライアント側だけで実行される
     console.log('mounted');
-    console.log(this.$route);
-    console.log(this.users);
-    console.log(this.user);
   },
   created() {
     // サーバ側とクライアント側で実行される
     console.log('created');
-    console.log(this.$route);
   },
 });
 </script>

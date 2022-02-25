@@ -9,12 +9,10 @@ export default Vue.extend({
   name: 'NotionPageVue',
   async asyncData({ $notion, params }) {
     const blockMap = await $notion.getPageBlocks(params.id);
-    console.log(blockMap);
     return { blockMap };
   },
   data: () => ({ blockMap: null }),
   mounted() {
-    console.log(this.blockMap);
   }
 })
 </script>
