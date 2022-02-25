@@ -106,6 +106,13 @@ const config: NuxtConfig = {
       /typed-vuex/,
     ],
   },
+
+  publicRuntimeConfig: {
+  },
+  privateRuntimeConfig: {
+    notionId: process.env.NOTION_ID || '',
+    notionToken: process.env.NOTION_TOKEN || '',
+  }
 }
 
 export default config;
